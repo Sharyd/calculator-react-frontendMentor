@@ -7,7 +7,7 @@ interface Props {
 const GridContainer = ({ children }: Props) => {
     return (
         <div
-            className={`w-full grid grid-cols-4 rounded-md gap-4 py-6 px-6 h-full bg-activeBackground`}
+            className={`w-full grid grid-cols-4  rounded-md gap-4 py-6 px-6 h-full bg-activeBackground`}
         >
             {children}
         </div>

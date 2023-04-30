@@ -107,7 +107,7 @@ function App() {
                 className={`min-w-screen min-h-screen bg-mainBackground text-textWhite ${theme}`}
             >
                 <Container>
-                    <div className="flex flex-col gap-6 px-4 md:w-[500px] md:h-[650px]">
+                    <div className="flex flex-col px-2 gap-6 md:px-4 md:w-[500px] md:h-[650px]">
                         <div
                             className={`flex justify-between  ${
                                 theme === Themes.theme1

@@ -28,7 +28,7 @@ const Actions = ({ action, calculate, deleteDigit, reset, digit }: Props) => {
     return (
         <button
             onClick={() => handleActions()}
-            className={`uppercase hover:brightness-150 text-[1.6rem] md:text-md  shadow-customInnerBottom shadow-keyShadowPrimary/80 rounded-md  py-2 px-4
+            className={`uppercase hover:brightness-150 flex items-center justify-center text-[1.4rem] md:text-md  shadow-customInnerBottom shadow-keyShadowPrimary/80 rounded-md  py-2 px-4
             ${
                 action === 'reset' &&
                 'col-span-2 bg-keyBackgroundPrimary shadow-keyShadowPrimary/80 text-textWhite'
